@@ -86,7 +86,6 @@ footer {
  ##########################################################
 */
 
-/* Write your CSS here */
 main.wrapper::first-letter {
   float: left;
   width: 25%;
