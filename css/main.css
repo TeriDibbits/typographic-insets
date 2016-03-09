@@ -87,3 +87,51 @@ footer {
 */
 
 /* Write your CSS here */
+main.wrapper::first-letter {
+  float: left;
+  width: 25%;
+  background-color: #666;
+  font-size: 5rem;
+  padding: .2em;
+  margin-right: .1em;
+  margin-bottom: .1em;
+  color: #fff;
+  font-style: normal;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #333;
+}
+
+figure {
+  width: 24.5%;
+  float: right;
+  border-top: 3px solid;
+  border-color: #333;
+  width: 300px;
+  padding-top: 1em;
+  margin-right: -5em;
+}
+
+img {
+}
+
+figcaption {
+  font-style: italic;
+  padding-top: 1em;
+  border-bottom: 3px solid;
+  border-color: #333;
+  padding-bottom: 1em;
+}
+
+blockquote {
+  float: left;
+  width: 50%;
+  font-size: 1.5rem;
+  border-top: 3px solid;
+  border: #333;
+  border-bottom: 3px solid;
+  text-align: right;
+  margin-left: -5em;
+  max-width: 13em;
+  color: #666;
+}
